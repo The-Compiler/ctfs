@@ -370,6 +370,16 @@
     
    \begin{document}
 
+\author{Florian Bruhin (The Compiler)}
+\date{\today}
+\title{Hackvent 2019 Writeups}
+\maketitle
+
+   \textbf{Note:} These writeups and the underlying files can also be found in this Git repository: \\
+   \url{https://github.com/The-Compiler/ctfs/tree/master/2019_hackvent}
+
+I've used \href{https://jupyter.org/}{Jupyter Notebook} to solve the challenges (and add some text). Then, I used Jupyter's LaTeX-export and some hand-editing to end up with this document.
+
 \pagebreak{}
     \hypertarget{hv19.01-censored}{%
 \section{HV19.01 censored}\label{hv19.01-censored}}
@@ -2272,7 +2282,7 @@ free versions could produce was some 600 lines of disassembly.
 At that point, I also found the string
 \texttt{"6klzic\textless{}=bPBtdvff\textquotesingle{}y\textbackslash{}x7fFI\textasciitilde{}on//N"}
 (not a literal \texttt{\textbackslash{}x7f}, but an ASCII DEL). This
-will be important for alter
+will be important for later
 
 A big part of the disassembly looked like this:
 
