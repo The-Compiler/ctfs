@@ -1,0 +1,7 @@
+Pillow
+bs4
+zbarlight
+requests
+jupyter
+rule30
+base58
